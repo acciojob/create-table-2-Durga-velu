@@ -20,7 +20,7 @@ for(let i=0;i<rowsCount;i++){
 let rows=document.createElement("tr")
 	for(let j=0;j<columnsCount;j++){
 		let columns=document.createElement("td")
-		colums.textContent=`Row-${i} Column-${j}`
+		columns.textContent=`Row-${i} Column-${j}`
 	rows.appendChild(columns)	
 		
 	}
